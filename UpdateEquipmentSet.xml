@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\..\FrameXML\UI.xsd">
+	<Script file="UpdateEquipmentSet.lua"/>
+	<Frame name="UES_Frame">
+		<Scripts>
+			<OnEvent function="UES_OnEvent"/>
+			<OnLoad function="UES_OnLoad"/>
+		</Scripts>
+	</Frame>
+</Ui>
